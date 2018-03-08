@@ -7,7 +7,7 @@
 import unittest
 from click.testing import CliRunner
 
-from assignment3_17205711 import assignment3_17205711
+
 from assignment3_17205711 import cli
 
 
