@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//LedTester/__init__.py=utf-8
 encoding//LedTester/cli.py=utf-8
+encoding//tests/__init__.py=utf-8
 encoding//tests/test_assignment3_17205711.py=utf-8
 encoding/setup.py=utf-8
