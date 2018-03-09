@@ -32,7 +32,7 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
-    description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    description="LedTester for Assignment 3 COMP30670",
     entry_points={
         'console_scripts': [
             'assignment3_17205711=assignment3_17205711.cli:main',
