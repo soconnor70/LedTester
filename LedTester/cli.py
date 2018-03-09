@@ -41,7 +41,7 @@ def turnOff(x1, x2, y1, y2, a2d):
    # print('\n')
     return
 
-# Switch function swaps lights from 1 to 0 and vice versa, in range of coordainates given.
+# Switch function swaps lights from 1 to 0 and vice versa, in range of coordinates given.
 def switch(x1, x2, y1, y2, a2d):
     for i in range(x1, x2 +1):
         for j in range(y1, y2 +1):
@@ -55,8 +55,7 @@ def switch(x1, x2, y1, y2, a2d):
     return
 
 # Split function splits up data from input file provides commands and coordinates, 
-# removes unnecessary words,
-# replaces new lines with commas, trips white spaces at start of line and last command
+# removes unnecessary words, replaces new lines with commas, trips white spaces at start of line and last command
 def split(line):
 
     newCommand = line
@@ -66,14 +65,13 @@ def split(line):
     if line.startswith(" "):
         newCommand = newCommand.strip()
     if newCommand.endswith(" "):
-        #newCommand = newCommand.replace(" ", "\n")
         newCommand = newCommand.strip()
     x1 = ""
     x2 = ""
     y1 = ""
     y2 = ""
     cmd = ""
-    #print (line)
+
 
     if newCommand.startswith('turn on'):
         cmd = "turn on"
@@ -96,7 +94,7 @@ def split(line):
 
     return cmd, x1, x2, y1, y2
 
-# Sanitize function checks if coordinates are less than 0 or more than grid range
+# **Unable to work for input c - Sanitize function checks if coordinates are less than 0 or more than grid range
 def sanitize(x1, x2, y1, y2, N):
     if int(x1) < 0:
         x1 = 0
